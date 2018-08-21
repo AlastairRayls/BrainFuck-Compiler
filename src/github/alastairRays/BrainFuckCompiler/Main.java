@@ -8,8 +8,9 @@ public class Main {
   
    Gui g = new Gui();
   
-   g.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-   g.setSize(1080, 760);
+   g.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+   g.setSize(new Dimension(1080, 760));
+   g.setMinimumSize(new Dimension(1080, 760));
    g.setVisible(true);
   
   }
